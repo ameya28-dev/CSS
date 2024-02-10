@@ -1,0 +1,49 @@
+/* universal selector */
+/* *{
+    font-family: monospace;
+} */
+
+body{
+    font-size: 15px;
+    /* border: 3px solid black;
+    not inherited by other selectors 
+     */
+}
+
+/* element selector */
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+}
+
+/* applies to h1 and h2 */
+h1, h2{
+    color: red;
+}
+
+/* applies to span inside p */
+p span{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.highlight{
+    text-transform: capitalize;
+    background-color: yellow;
+}
+
+/* class selector */
+.gray{
+    color: gray;
+}
+
+/* id selector */
+#second{
+    font-style: italic;
+}
+
+/* class selector supercedes element selector */
+
+/* all selectors inherits from body
+fonts and colors are inherited but not border 
+*/
