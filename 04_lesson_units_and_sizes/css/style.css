@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 3rem;
+    width: 50%;
+    border: 2px dashed red;
+    padding: 0.5em;
+}
+
+main{
+    width: 100%;
+    background-color: skyblue;
+    font-size: 1.5rem;
+}
+
+p{
+    width: 40ch;
+}
