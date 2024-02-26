@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+/* Begin reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+/* end reset */
+
+/* begin utility classes */
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+/* end utility classes */
+
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    /* background-image: url('../img/bubbles.png')
+    ,linear-gradient(indigo, navy, blue, green, yellow, orange, red);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center;
+    background-size: 20%, auto; */
+
+    
+}
+
+.container{
+    background-color: rgb(251, 210, 156);
+    background-image: url('../img/map-2176x1451.png');
+    /* background-repeat: no-repeat; */
+    background-repeat: repeat-x repeat-y;
+    background-size: cover;
+    background-position: top right;
+}
+
+.hero{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: hsla(0, 0%, 100%, 0.400);
+}
+
+.h1{
+    font-size: 500%;
+    color: white;
+    text-shadow: 2px 2px 5px navy;
+    /* background-color: hsla(0, 0%, 0%, 0.402);
+    padding: 0.5rem;
+    border-radius: 10px; */
+}
+
+.profile_pic_figure {
+    width: 35%;
+}
+
+.profile_pic_figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double black;
+    border-radius: 50%;
+}
+
+.example {
+    margin: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img {
+    width: 25%;
+    height: auto;
+    /* provide this as it will not adapt if height and width is given in html */
+}
+
+.clip{
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url('../img/scenic-2200x1331.png');
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
